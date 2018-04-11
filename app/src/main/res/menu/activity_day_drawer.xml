@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="דף ראשי"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:onClick="moveToSearch"
+            android:title="חיפוש" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="מפת השוק"
+            android:icon="@drawable/ic_room_black_24dp"/>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="מבצעים והטבות" />
+        <item
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/ic_directions_bus_black_24dp"
+            android:title="תחבורה ציבורית" />
+        <item
+            android:id="@+id/nav_move_to_night"
+            android:icon="@drawable/ic_brightness_3_black_24dp"
+            android:title="מעבר לשוק לילה" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_next_week_black_24dp"
+            android:title = "בעלי עסקים" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="אודות" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="שיתוף" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="צור קשר" />
+        </menu>
+    </item>
+
+</menu>

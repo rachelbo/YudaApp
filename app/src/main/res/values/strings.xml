@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="night">שוק לילה</string>
+    <string name="day">שוק יום</string>
+    <string name="title_activity_day">שוק יום</string>
+    <string name="business_text_1">בעל עסק יקר</string>
+    <string name="business_text_2"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_night111">nightActivity111</string>
+</resources>
